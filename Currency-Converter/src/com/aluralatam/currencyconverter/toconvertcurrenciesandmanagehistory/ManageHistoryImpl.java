@@ -1,6 +1,7 @@
 package com.aluralatam.currencyconverter.toconvertcurrenciesandmanagehistory;
 
 import java.io.*;
+import java.util.ArrayList;
 import java.util.List;
 
 public class ManageHistoryImpl implements ManageHistoryDAO {
@@ -8,10 +9,10 @@ public class ManageHistoryImpl implements ManageHistoryDAO {
 
     @Override
     public void viewHistory() throws IOException {
-        AccesingToTheHistoryFileDAO accesingToTheHistoryFileDAO = new AccesingToTheHistoryFileImpl();
+        List<String> historyCurrenciesConverted = new ArrayList<>();
 
         if (new File(HISTIRY_FILE_NAME).exists()) {
-            List<String> historyCurrenciesConverted = accesingToTheHistoryFileDAO.readingHistoryFile(new File(HISTIRY_FILE_NAME));
+            historyCurrenciesConverted = accesingToTheHistoryFileDAO.readingHistoryFile(new File(HISTIRY_FILE_NAME));
 
             System.out.print("\n");
 
@@ -30,18 +31,41 @@ public class ManageHistoryImpl implements ManageHistoryDAO {
     }
 
     @Override
-    public void searchElementOfTheHistory(String elementToSearch) {
+    public void searchElementOfTheHistory(String elementToSearch) throws IOException {
+        List<String> listItemsToSearched = new ArrayList<>();
 
+        if (new File(HISTIRY_FILE_NAME).exists()) {
+            listItemsToSearched = accesingToTheHistoryFileDAO.writeSearchedItems(new File(HISTIRY_FILE_NAME), elementToSearch);
+
+            System.out.print("\n");
+
+            if (listItemsToSearched.size() == 0) {
+                System.out.println("There's not items that match with the search");
+            }
+            else {
+                System.out.println("Items that match with the search");
+                for (String iterator : listItemsToSearched) {
+                    System.out.println(iterator);
+                }
+            }
+        }
+        else {
+            System.out.println("\nThere's not history enabled");
+        }
     }
 
     @Override
-    public void deleteElementOfTheHistory(String elementToDelete) {
+    public void resetHistory() throws IOException {
+        if (new File(HISTIRY_FILE_NAME).exists()) {
+            accesingToTheHistoryFileDAO.deleteHistoryFile(HISTIRY_FILE_NAME);
 
-    }
+            accesingToTheHistoryFileDAO.createHistoryFile(HISTIRY_FILE_NAME);
+        }
+        else {
+            accesingToTheHistoryFileDAO.createHistoryFile(HISTIRY_FILE_NAME);
+        }
 
-    @Override
-    public void resetHistory() {
-
+        System.out.println("\nHistory reset");
     }
 
     @Override

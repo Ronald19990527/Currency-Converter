@@ -174,20 +174,29 @@ public class TestInitCurrencyConverter {
                         break;
 
                     case 3:
-                        System.out.println("\nEnter the element");
+                        System.out.print("\nEnter the element : ");
+                        String elementToSearch = teclado.next();
+
+                        manageHistoryDAO.searchElementOfTheHistory(elementToSearch);
+
                         break;
 
                     case 4:
                         break;
 
                     case 5:
+                        manageHistoryDAO.resetHistory();
+
                         break;
 
                     case 6:
+                        System.out.println("\nThanks for participating");
+
                         break;
 
                     default:
                         System.out.println("\nInvalid option, try it again");
+
                         break;
                 }
             } else {

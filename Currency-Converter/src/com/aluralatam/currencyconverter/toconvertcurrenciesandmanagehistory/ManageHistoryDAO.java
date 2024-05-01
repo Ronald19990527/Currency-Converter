@@ -8,11 +8,9 @@ public interface ManageHistoryDAO {
 
     public void viewHistory() throws IOException;
 
-    public void searchElementOfTheHistory(String elementToSearch);
+    public void searchElementOfTheHistory(String elementToSearch) throws IOException;
 
-    public void deleteElementOfTheHistory(String elementToDelete);
-
-    public void resetHistory();
+    public void resetHistory() throws IOException;
 
     public void verifyIfNewHistoryFileExistsAndWrite(String register) throws IOException;
 }
