@@ -111,100 +111,100 @@ public class OptionsFour {
 
             case 71:
                 if (currencyToConvert) {
-                    currencies = new CurrencyToConvert("COP", "Kenyan Shilling");
+                    currencies = new CurrencyToConvert("KES", "Kenyan Shilling");
                 }
                 else {
-                    currencies = new CurrencyToBeConverted("COP", "Kenyan Shilling");
+                    currencies = new CurrencyToBeConverted("KES", "Kenyan Shilling");
                 }
 
                 break;
 
             case 72:
                 if (currencyToConvert) {
-                    currencies = new CurrencyToConvert("COP", "Kyrgyz Som");
+                    currencies = new CurrencyToConvert("KGS", "Kyrgyz Som");
                 }
                 else {
-                    currencies = new CurrencyToBeConverted("COP", "Kyrgyz Som");
+                    currencies = new CurrencyToBeConverted("KGS", "Kyrgyz Som");
                 }
 
                 break;
 
             case 73:
                 if (currencyToConvert) {
-                    currencies = new CurrencyToConvert("COP", "Cambodian Riel");
+                    currencies = new CurrencyToConvert("KHR", "Cambodian Riel");
                 }
                 else {
-                    currencies = new CurrencyToBeConverted("COP", "Cambodian Riel");
+                    currencies = new CurrencyToBeConverted("KHR", "Cambodian Riel");
                 }
 
                 break;
 
             case 74:
                 if (currencyToConvert) {
-                    currencies = new CurrencyToConvert("COP", "Cayman Islands Dollar");
+                    currencies = new CurrencyToConvert("KID", "Cayman Islands Dollar");
                 }
                 else {
-                    currencies = new CurrencyToBeConverted("COP", "Cayman Islands Dollar");
+                    currencies = new CurrencyToBeConverted("KID", "Cayman Islands Dollar");
                 }
 
                 break;
 
             case 75:
                 if (currencyToConvert) {
-                    currencies = new CurrencyToConvert("COP", "Comorian Franc");
+                    currencies = new CurrencyToConvert("KMF", "Comorian Franc");
                 }
                 else {
-                    currencies = new CurrencyToBeConverted("COP", "Comorian Franc");
+                    currencies = new CurrencyToBeConverted("KMF", "Comorian Franc");
                 }
 
                 break;
 
             case 76:
                 if (currencyToConvert) {
-                    currencies = new CurrencyToConvert("COP", "South Korean Won");
+                    currencies = new CurrencyToConvert("KRW", "South Korean Won");
                 }
                 else {
-                    currencies = new CurrencyToBeConverted("COP", "South Korean Won");
+                    currencies = new CurrencyToBeConverted("KRW", "South Korean Won");
                 }
 
                 break;
 
             case 77:
                 if (currencyToConvert) {
-                    currencies = new CurrencyToConvert("COP", "Dinar Kuwaití");
+                    currencies = new CurrencyToConvert("KWD", "Dinar Kuwaití");
                 }
                 else {
-                    currencies = new CurrencyToBeConverted("COP", "Dinar Kuwaití");
+                    currencies = new CurrencyToBeConverted("KWD", "Dinar Kuwaití");
                 }
 
                 break;
 
             case 78:
                 if (currencyToConvert) {
-                    currencies = new CurrencyToConvert("COP", "Afghani Afghani");
+                    currencies = new CurrencyToConvert("AFN", "Afghani Afghani");
                 }
                 else {
-                    currencies = new CurrencyToBeConverted("COP", "Afghani Afghani");
+                    currencies = new CurrencyToBeConverted("AFN", "Afghani Afghani");
                 }
 
                 break;
 
             case 79:
                 if (currencyToConvert) {
-                    currencies = new CurrencyToConvert("COP", "Tenge Kazajo");
+                    currencies = new CurrencyToConvert("KZT", "Tenge Kazajo");
                 }
                 else {
-                    currencies = new CurrencyToBeConverted("COP", "Tenge Kazajo");
+                    currencies = new CurrencyToBeConverted("KZT", "Tenge Kazajo");
                 }
 
                 break;
 
             case 80:
                 if (currencyToConvert) {
-                    currencies = new CurrencyToConvert("COP", "Lao Kip");
+                    currencies = new CurrencyToConvert("LAK", "Lao Kip");
                 }
                 else {
-                    currencies = new CurrencyToBeConverted("COP", "Lao Kip");
+                    currencies = new CurrencyToBeConverted("LAK", "Lao Kip");
                 }
 
                 break;

@@ -11,206 +11,206 @@ public class OptionsFive {
         switch (option) {
             case 81:
                 if (currencyToConvert) {
-                    currencies = new CurrencyToConvert("COP", "Lebanese pound");
+                    currencies = new CurrencyToConvert("LBP", "Lebanese pound");
                 }
                 else {
-                    currencies = new CurrencyToBeConverted("COP", "Lebanese pound");
+                    currencies = new CurrencyToBeConverted("LBP", "Lebanese pound");
                 }
 
                 break;
 
             case 82:
                 if (currencyToConvert) {
-                    currencies = new CurrencyToConvert("COP", "Sri Lanka rupee");
+                    currencies = new CurrencyToConvert("LKR", "Sri Lanka rupee");
                 }
                 else {
-                    currencies = new CurrencyToBeConverted("COP", "Sri Lanka rupee");
+                    currencies = new CurrencyToBeConverted("LKR", "Sri Lanka rupee");
                 }
 
                 break;
 
             case 83:
                 if (currencyToConvert) {
-                    currencies = new CurrencyToConvert("COP", "Liberian Dollar");
+                    currencies = new CurrencyToConvert("LRD", "Liberian Dollar");
                 }
                 else {
-                    currencies = new CurrencyToBeConverted("COP", "Liberian Dollar");
+                    currencies = new CurrencyToBeConverted("LRD", "Liberian Dollar");
                 }
 
                 break;
 
             case 84:
                 if (currencyToConvert) {
-                    currencies = new CurrencyToConvert("COP", "Loti");
+                    currencies = new CurrencyToConvert("LSL", "Loti");
                 }
                 else {
-                    currencies = new CurrencyToBeConverted("COP", "Loti");
+                    currencies = new CurrencyToBeConverted("LSL", "Loti");
                 }
 
                 break;
 
             case 85:
                 if (currencyToConvert) {
-                    currencies = new CurrencyToConvert("COP", "Libyan dinar");
+                    currencies = new CurrencyToConvert("LYD", "Libyan dinar");
                 }
                 else {
-                    currencies = new CurrencyToBeConverted("COP", "Libyan dinar");
+                    currencies = new CurrencyToBeConverted("LYD", "Libyan dinar");
                 }
 
                 break;
 
             case 86:
                 if (currencyToConvert) {
-                    currencies = new CurrencyToConvert("COP", "Moroccan dirham");
+                    currencies = new CurrencyToConvert("MAD", "Moroccan dirham");
                 }
                 else {
-                    currencies = new CurrencyToBeConverted("COP", "Moroccan dirham");
+                    currencies = new CurrencyToBeConverted("MAD", "Moroccan dirham");
                 }
 
                 break;
 
             case 87:
                 if (currencyToConvert) {
-                    currencies = new CurrencyToConvert("COP", "Moldovan Leu");
+                    currencies = new CurrencyToConvert("MDL", "Moldovan Leu");
                 }
                 else {
-                    currencies = new CurrencyToBeConverted("COP", "Moldovan Leu");
+                    currencies = new CurrencyToBeConverted("MDL", "Moldovan Leu");
                 }
 
                 break;
 
             case 88:
                 if (currencyToConvert) {
-                    currencies = new CurrencyToConvert("COP", "Malagasy Ariary");
+                    currencies = new CurrencyToConvert("MGA", "Malagasy Ariary");
                 }
                 else {
-                    currencies = new CurrencyToBeConverted("COP", "Malagasy Ariary");
+                    currencies = new CurrencyToBeConverted("MGA", "Malagasy Ariary");
                 }
 
                 break;
 
             case 89:
                 if (currencyToConvert) {
-                    currencies = new CurrencyToConvert("COP", "Macedonian Denar");
+                    currencies = new CurrencyToConvert("MKD", "Macedonian Denar");
                 }
                 else {
-                    currencies = new CurrencyToBeConverted("COP", "Macedonian Denar");
+                    currencies = new CurrencyToBeConverted("MKD", "Macedonian Denar");
                 }
 
                 break;
 
             case 90:
                 if (currencyToConvert) {
-                    currencies = new CurrencyToConvert("COP", "Burmese Kyat");
+                    currencies = new CurrencyToConvert("MMK", "Burmese Kyat");
                 }
                 else {
-                    currencies = new CurrencyToBeConverted("COP", "Burmese Kyat");
+                    currencies = new CurrencyToBeConverted("MMK", "Burmese Kyat");
                 }
 
                 break;
 
             case 91:
                 if (currencyToConvert) {
-                    currencies = new CurrencyToConvert("COP", "Mongolian Tugrik");
+                    currencies = new CurrencyToConvert("MNT", "Mongolian Tugrik");
                 }
                 else {
-                    currencies = new CurrencyToBeConverted("COP", "Mongolian Tugrik");
+                    currencies = new CurrencyToBeConverted("MNT", "Mongolian Tugrik");
                 }
 
                 break;
 
             case 92:
                 if (currencyToConvert) {
-                    currencies = new CurrencyToConvert("COP", "Macanese Pataca");
+                    currencies = new CurrencyToConvert("MOP", "Macanese Pataca");
                 }
                 else {
-                    currencies = new CurrencyToBeConverted("COP", "Macanese Pataca");
+                    currencies = new CurrencyToBeConverted("MOP", "Macanese Pataca");
                 }
 
                 break;
 
             case 93:
                 if (currencyToConvert) {
-                    currencies = new CurrencyToConvert("COP", "Ouguiya");
+                    currencies = new CurrencyToConvert("MRU", "Ouguiya");
                 }
                 else {
-                    currencies = new CurrencyToBeConverted("COP", "Ouguiya");
+                    currencies = new CurrencyToBeConverted("MRU", "Ouguiya");
                 }
 
                 break;
 
             case 94:
                 if (currencyToConvert) {
-                    currencies = new CurrencyToConvert("COP", "Mauritian Rupee");
+                    currencies = new CurrencyToConvert("MUR", "Mauritian Rupee");
                 }
                 else {
-                    currencies = new CurrencyToBeConverted("COP", "Mauritian Rupee");
+                    currencies = new CurrencyToBeConverted("MUR", "Mauritian Rupee");
                 }
 
                 break;
 
             case 95:
                 if (currencyToConvert) {
-                    currencies = new CurrencyToConvert("COP", "Maldivian Rupee");
+                    currencies = new CurrencyToConvert("MVR", "Maldivian Rupee");
                 }
                 else {
-                    currencies = new CurrencyToBeConverted("COP", "Maldivian Rupee");
+                    currencies = new CurrencyToBeConverted("MVR", "Maldivian Rupee");
                 }
 
                 break;
 
             case 96:
                 if (currencyToConvert) {
-                    currencies = new CurrencyToConvert("COP", "Malawi Kwacha");
+                    currencies = new CurrencyToConvert("MWK", "Malawi Kwacha");
                 }
                 else {
-                    currencies = new CurrencyToBeConverted("COP", "Malawi Kwacha");
+                    currencies = new CurrencyToBeConverted("MWK", "Malawi Kwacha");
                 }
 
                 break;
 
             case 97:
                 if (currencyToConvert) {
-                    currencies = new CurrencyToConvert("COP", "Mexican Peso");
+                    currencies = new CurrencyToConvert("MXN", "Mexican Peso");
                 }
                 else {
-                    currencies = new CurrencyToBeConverted("COP", "Mexican Peso");
+                    currencies = new CurrencyToBeConverted("MXN", "Mexican Peso");
                 }
 
                 break;
 
             case 98:
                 if (currencyToConvert) {
-                    currencies = new CurrencyToConvert("COP", "Malaysian Ringgit");
+                    currencies = new CurrencyToConvert("MYR", "Malaysian Ringgit");
                 }
                 else {
-                    currencies = new CurrencyToBeConverted("COP", "Malaysian Ringgit");
+                    currencies = new CurrencyToBeConverted("MYR", "Malaysian Ringgit");
                 }
 
                 break;
 
             case 99:
                 if (currencyToConvert) {
-                    currencies = new CurrencyToConvert("COP", "Mozambican metical");
+                    currencies = new CurrencyToConvert("MZN", "Mozambican metical");
                 }
                 else {
-                    currencies = new CurrencyToBeConverted("COP", "Mozambican metical");
+                    currencies = new CurrencyToBeConverted("MZN", "Mozambican metical");
                 }
 
                 break;
 
             case 100:
                 if (currencyToConvert) {
-                    currencies = new CurrencyToConvert("COP", "Namibian dollar");
+                    currencies = new CurrencyToConvert("NAD", "Namibian dollar");
                 }
                 else {
-                    currencies = new CurrencyToBeConverted("COP", "Namibian dollar");
+                    currencies = new CurrencyToBeConverted("NAD", "Namibian dollar");
                 }
 
                 break;
 
             default:
-                currencies = null;
+                currencies = new OptionsSix().sixthTwentyOptions(option, currencyToConvert);
 
                 break;
         }
