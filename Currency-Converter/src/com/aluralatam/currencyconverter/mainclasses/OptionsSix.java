@@ -201,16 +201,16 @@ public class OptionsSix {
 
             case 120:
                 if (currencyToConvert) {
-                    currencies = new CurrencyToConvert("SBD", "Solomon Islands dollar");
+                    currencies = new CurrencyToConvert("SBD", "Solomon Islands Dollar");
                 }
                 else {
-                    currencies = new CurrencyToBeConverted("SBD", "Solomon Islands dollar");
+                    currencies = new CurrencyToBeConverted("SBD", "Solomon Islands Dollar");
                 }
 
                 break;
 
             default:
-                currencies = null;
+                currencies = new OptionsSeven().seventhTwentyOptions(option, currencyToConvert);
 
                 break;
         }
