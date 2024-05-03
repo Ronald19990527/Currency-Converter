@@ -694,4 +694,39 @@ Enter an option :
 - Allows you to search for items in history
 
 ```
+	Currency Convert
+1 . Convert currency
+2 . View history
+3 . Search elements of the history
+4 . Delete element of the history
+5 . Reset history
+6 . Exit
+Enter an option : 3
+
+Enter the element : AFN
+
+There's not items that match with the search
+
+	Currency Convert
+1 . Convert currency
+2 . View history
+3 . Search elements of the history
+4 . Delete element of the history
+5 . Reset history
+6 . Exit
+Enter an option : 3
+
+Enter the element : FOK
+
+Items that match with the search
+Conversion Result : 1200.0 (FOK) are equivalent to 1876.08 (SEK) => Fri, 03 May 2024 00:00:01 +0000
+
+	Currency Convert
+1 . Convert currency
+2 . View history
+3 . Search elements of the history
+4 . Delete element of the history
+5 . Reset history
+6 . Exit
+Enter an option : 
 ```
