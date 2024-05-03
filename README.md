@@ -813,3 +813,19 @@ Thanks for participating
 
 Process finished with exit code 0
 ```
+
+## Tech
+
+- Handling files with the File class
+
+- Exchange Rate API consumption
+
+- Using the GSON library
+
+- POO
+
+- JSON Format
+
+## Author
+
+- Ronald David Hernandez
