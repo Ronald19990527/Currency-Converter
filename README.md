@@ -664,3 +664,34 @@ Do you wish to convert another currency (Enter Yes or No)? : nO
 6 . Exit
 Enter an option : 
 ```
+
+- shows the history of converted currencies and saved in a file.txt
+
+```
+	Currency Convert
+1 . Convert currency
+2 . View history
+3 . Search elements of the history
+4 . Delete element of the history
+5 . Reset history
+6 . Exit
+Enter an option : 2
+
+Conversion Result : 16002.0 (ZMW) are equivalent to 8026.6032000000005 (ZWL) => Fri, 03 May 2024 00:00:01 +0000
+Conversion Result : 1200.0 (FOK) are equivalent to 1876.08 (SEK) => Fri, 03 May 2024 00:00:01 +0000
+Conversion Result : 12000.0 (BBD) are equivalent to 106317.6 (MDL) => Fri, 03 May 2024 00:00:01 +0000
+
+	Currency Convert
+1 . Convert currency
+2 . View history
+3 . Search elements of the history
+4 . Delete element of the history
+5 . Reset history
+6 . Exit
+Enter an option : 
+```
+
+- Allows you to search for items in history
+
+```
+```
