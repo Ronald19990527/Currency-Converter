@@ -730,3 +730,86 @@ Conversion Result : 1200.0 (FOK) are equivalent to 1876.08 (SEK) => Fri, 03 May 
 6 . Exit
 Enter an option : 
 ```
+
+- Allows you to delete for items in history
+
+```
+	Currency Convert
+1 . Convert currency
+2 . View history
+3 . Search elements of the history
+4 . Delete element of the history
+5 . Reset history
+6 . Exit
+Enter an option : 4
+
+Enter some item that match with the search for that you want to delete (You can check out the history to be sure): FOK
+Item deleted successfully
+
+	Currency Convert
+1 . Convert currency
+2 . View history
+3 . Search elements of the history
+4 . Delete element of the history
+5 . Reset history
+6 . Exit
+Enter an option : 2
+
+Conversion Result : 16002.0 (ZMW) are equivalent to 8026.6032000000005 (ZWL) => Fri, 03 May 2024 00:00:01 +0000
+Conversion Result : 12000.0 (BBD) are equivalent to 106317.6 (MDL) => Fri, 03 May 2024 00:00:01 +0000
+```
+
+- Allows you to reset the history
+
+```
+	Currency Convert
+1 . Convert currency
+2 . View history
+3 . Search elements of the history
+4 . Delete element of the history
+5 . Reset history
+6 . Exit
+Enter an option : 5
+
+History reset
+
+	Currency Convert
+1 . Convert currency
+2 . View history
+3 . Search elements of the history
+4 . Delete element of the history
+5 . Reset history
+6 . Exit
+Enter an option : 2
+
+No items found in history file
+
+	Currency Convert
+1 . Convert currency
+2 . View history
+3 . Search elements of the history
+4 . Delete element of the history
+5 . Reset history
+6 . Exit
+Enter an option : 
+```
+
+- If you delete the history file this create itself when you do a request
+
+- This program has the exit option
+
+```
+	Currency Convert
+1 . Convert currency
+2 . View history
+3 . Search elements of the history
+4 . Delete element of the history
+5 . Reset history
+6 . Exit
+Enter an option : 6
+
+Thanks for participating
+
+
+Process finished with exit code 0
+```
